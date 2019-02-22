@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="lbBaseGridView">
+        <attr name="focusOutFront" format="boolean"/>
+        <attr name="focusOutEnd" format="boolean"/>
+        <attr name="focusOutSideStart" format="boolean"/>
+        <attr name="focusOutSideEnd" format="boolean"/>
+        <attr name="horizontalMargin" format="dimension"/>
+        <attr name="verticalMargin" format="dimension"/>
+        <attr name="android:gravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="lbVerticalGridView">
+        <attr name="columnWidth" format="dimension">
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="numberOfColumns" format="integer"/>
+        <attr name="lbv_focusOutLeft" format="boolean"/>
+        <attr name="lbv_focusOutTop" format="boolean"/>
+        <attr name="lbv_focusOutRight" format="boolean"/>
+        <attr name="lbv_focusOutBottom" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="lbHorizontalGridView">
+        <attr name="rowHeight" format="dimension">
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="numberOfRows" format="integer"/>
+        <attr name="lbh_focusOutLeft" format="boolean"/>
+        <attr name="lbh_focusOutTop" format="boolean"/>
+        <attr name="lbh_focusOutRight" format="boolean"/>
+        <attr name="lbh_focusOutBottom" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="lbLoadMoreGridView">
+        <attr name="canLoadMore" format="boolean"/>
+        <attr name="addLoadingView" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SpanGridView">
+        <attr name="useXmlDeco" format="boolean"/>
+        <attr name="hasHeader" format="boolean"/>
+        <attr name="includeEdge" format="boolean"/>
+        <attr name="hMargin" format="dimension"/>
+        <attr name="vMargin" format="dimension"/>
+    </declare-styleable>
+
+</resources>
